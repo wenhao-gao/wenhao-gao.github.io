@@ -1,139 +1,46 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Wengong Jin | Personal Webpage</title>
-  <meta name="description" content="Homepage of Wengong Jin">
-  <meta name="author" content="Wengong Jin">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href=/wengong/libs/external/skeleton/normalize.css>
-  <link rel="stylesheet" href=/wengong/libs/external/skeleton/skeleton.css>
-  <link rel="stylesheet" href=/wengong/libs/custom/my_css.css>
-
-  <!-- JQuery
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src=/wengong/libs/external/jquery-3.1.1.min.js></script>
-
-  <!-- Font-Awesome
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href=/wengong/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
-
-  <!-- Academicons
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href=/wengong/libs/external/academicons-1.8.6/css/academicons.min.css>
-
-  <!-- Skeleton tabs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href=/wengong/libs/external/skeleton_tabs/skeleton-tabs.css>
-  <script src=/wengong/libs/external/skeleton_tabs/skeleton-tabs.js></script>
-
-  <!-- Timeline
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href=/wengong/libs/external/timeline.css>
-
-  <!-- Scripts
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!--<link rel="stylesheet" href=/wengong/libs/external/github-prettify-theme.css>-->
-  <script src=/wengong/libs/custom/my_js.js></script>
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href=/wengong/libs/icon.png>
-  <link rel="shortcut icon" type="image/png" href=/wengong/libs/icon.png>
-
-</head>
-<body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-
-    <section class="header">
-      <div class="row">
-        <div class="three columns">
-          <a href="/wengong/"><img class="u-max-full-width" src='/wengong/assets/profile-pics/wengong-stockholm.jpg'></a>
-        </div>
-        <div class="nine columns main-description">
-            <h1>Wengong Jin</h1>
-            <p>Postdoctoral Associate at the Broad Institute</p>
-            <p>wengong [AT] csail.mit.edu</p>
-            <p>
-              <span onclick="window.open('https://twitter.com/WengongJin')" style="cursor: pointer">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('https://www.linkedin.com/in/wengong-jin-640522b1')" style="cursor: pointer">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('https://github.com/wengong-jin')" style="cursor: pointer">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('https://scholar.google.com/citations?user=IE5D8_QAAAAJ&hl=en')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-              </span>
-            </p>
-        </div>
-      </div>
-    </section>
-
-    <div class="navbar-spacer"></div>
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href=/wengong/index.html#bio>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/wengong/index.html#publications>Publications</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/wengong/index.html#talks>Talks</a></li>
-          <li class="navbar-item"><a class="navbar-link" href=/wengong/index.html#resume>Vita</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- ========== BIO ========== -->
+---
+layout: default
+title: Home
+---
+<!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am a Postdoctoral Associate at Eric and Wendy Schmidt Center of Broad Institute. I finished my Ph.D. in MIT CSAIL, advised by <a href="https://people.csail.mit.edu/regina/"> Regina Barzilay </a> and <a href="https://people.csail.mit.edu/tommi/"> Tommi Jaakkola </a>.
-  My research seeks to develop novel machine learning algorithms for biology, including drug discovery, immunology, genetic engineering, and synthetic biology. I am particularly interested in deep generative models and graph neural networks.
+  My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
+  My recent work has focused on reducing political polarization online 
+  [<a href="assets/publications/2022_newsbridge/paper.pdf" target="_blank">ICWSM'22a</a>,
+  <a href="assets/publications/2022_flipfeed/paper.pdf" target="_blank">ICWSM'22b</a>,
+  <a href="assets/publications/2021_balanced_inf_max/paper.pdf" target="_blank">WSDM'21</a>,
+  <a href="assets/publications/2018_social_mirror/paper.pdf" target="_blank">WWW'18</a>],
+  improving the health of online conversations 
+  [<a href="assets/publications/2021_dtox/paper.pdf" target="_blank">WWW'21</a>, 
+  <a href="assets/publications/2021_social_catalysts/paper.pdf" target="_blank">CSCW'21</a>], 
+  and causal inference in social systems 
+  [<a href="assets/publications/2017_detecting_network_effects/paper.pdf" target="_blank">KDD'17</a>
+  <a href="assets/publications/2019_biometrika/paper.pdf" target="_blank">Biometrika'19</a>]. 
+  My research often falls at the intersections of Social Networks, Machine Learning, and Causal Inference.
   </p>
-</div>
 
-<!-- ========== ========== -->
-<div class="docs-section" id="news">
-  <h4>News</h4>
-    <li> [2022/07] Our paper on antibody-antigen docking and design is accepted by ICML 2022 <a href="https://github.com/wengong-jin/abdockgen">[Code]</a> </li>
-    <li> [2022/01] Our paper on antibody sequence-structure co-design is accepted by ICLR 2022 <a href="https://github.com/wengong-jin/RefineGNN">[Code]</a> </li>
-	<li> [2021/08] Paper <a href="https://www.pnas.org/content/pnas/118/39/e2105070118.full.pdf"> Deep learning identifies synergistic drug combinations for treating COVID-19</a> is accepted to PNAS. Our paper is covered by 
-		<a href="https://news.mit.edu/2021/deep-learning-helps-predict-new-drug-combinations-fight-covid-19-0924">MIT News</a> 
-		<a href="https://cacm.acm.org/news/255862-deep-learning-helps-predict-drug-combinations-to-fight-covid-19/fulltext">CACM</a> 
-		<a href="https://developer.nvidia.com/blog/fighting-covid-19-with-deep-learning/">NVIDIA Blog</a> 
-	</li>
-	<li> [2020/02] Paper <a href="https://www.cell.com/cell/pdf/S0092-8674(20)30102-1.pdf"> A deep learning approach to antibiotic discovery </a> is accepted to Cell. Our paper is covered by 
-		<a href="http://news.mit.edu/2020/artificial-intelligence-identifies-new-antibiotic-0220">MIT News</a> 
-		<a href="https://www.nature.com/articles/d41586-020-00018-3">Nature</a> 
-		<a href="https://blogs.sciencemag.org/pipeline/archives/2020/02/20/machine-learning-for-antibiotics">Science</a> 
-		<a href="https://www.bbc.com/news/health-51586010">BBC News</a> 
-		<a href="https://www.theguardian.com/society/2020/feb/20/antibiotic-that-kills-drug-resistant-bacteria-discovered-through-ai">Guardian</a> 
-		<a href="https://www.govtech.com/health/Deep-Learning-AI-Discovers-Surprising-New-Antibiotics.html">GovTech</a> 
-		<a href="https://www.innovatorsmag.com/ai-solution-to-antibiotic-resistance/">Innovators</a>
-		<a href="https://www.ft.com/content/e5bb4e4e-5332-11ea-8841-482eed0038b1">Financial Times</a>
-		<a href="https://www.statnews.com/2020/02/20/machine-learning-finds-novel-antibiotic-able-to-kill-superbugs">STAT</a>
-	</li>
+  <p>
+  I am currently a Postdoc at Stanford University, mentored by <a href="https://web.stanford.edu/~jugander/" target="_blank">Johan Ugander</a>.
+  I received my Ph.D. from MIT in 2020 under the supervision of Deb Roy. 
+  Before coming to MIT, I spent one year in Paris and one year in Barcelona doing a M.Sc. in Data mining and Knowledge Management. 
+  I got my B.Sc. from Staffordshire University with First Class honors in Computer Science. 
+  Throughout my graduate studies, I spent several summers doing internships in industry, including Yahoo! Labs, Amazon, LinkedIn, and Facebook.
+  </p> 
+  <!--
+  I am a Postdoc at the department of Management Science and Engineering at Stanford University, working with <a href="https://web.stanford.edu/~jugander/" target="_blank">Johan Ugander</a>. 
+  My research develops tools for analyzing large-scale social data, aiming to provide a better understanding of social structure and behaviors online while also impacting the design of digital social systems.
+  My work often falls at the intersections of Social Networks, Machine Learning, and Causal Inference.
+  </p>
+
+  <p>
+  I completed my Ph.D. from MIT in 2020 under the supervision of Deb Roy. 
+  Before coming to MIT, I spent one year in Paris and one year in Barcelona doing a M.Sc. in Data mining and Knowledge Management. 
+  I got my B.Sc. from Staffordshire University with First Class honors in Computer Science. 
+  Throughout my graduate studies, I spent several summers doing internships in industry, including Yahoo! Labs, Amazon, LinkedIn, and Facebook.
+  </p>
+  -->
 </div>
 
 
@@ -141,7 +48,7 @@
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
 
-  <p>Most recent publications on <a href="https://scholar.google.com/citations?user=IE5D8_QAAAAJ&hl=en" target="_blank">Google Scholar</a>.<br/>
+  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
   <sup>‡</sup> indicates equal contribution.
   </p>
 
@@ -152,733 +59,208 @@
 
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
-      
-         <div class="paper">
-          <p class="title"><b>Antibody-Antigen Docking and Design via Hierarchical Equivariant Refinement</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML 2022)</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/pdf/2207.06616" target="_blank">Paper</a>
-              <a class="button" href="https://github.com/wengong-jin/abdockgen" target="_blank">Code</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-          </div>
-        </div>
-     
+      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+      {% for paper in selected_papers %}
         <div class="paper">
-          <p class="title"><b>Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-Design</b></p>
-          <p><b>Wengong Jin</b>, Jeremy Wohlwend, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Learning Representations (ICLR 2022)</i></p>
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/pdf/2110.04624" target="_blank">Paper</a>
-              <a class="button" href="https://github.com/wengong-jin/RefineGNN" target="_blank">Code</a>
-            
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
 
-            
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
 
-            
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
 
-            
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
 
-			
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
 
-            
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
           </div>
         </div>
-      
-        <div class="paper">
-          <p class="title"><b>Deep learning identifies synergistic drug combinations for treating COVID-19</b></p>
-          <p><b>Wengong Jin</b>, Jonathan M. Stokes, Richard T. Eastman, Zina Itkin, Alexey V. Zakharov, James J. Collins, Tommi S. Jaakkola, Regina Barzilay</p>
-          <p><i>Proceedings of the National Academy of Sciences (PNAS 2021)</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://www.pnas.org/content/pnas/118/39/e2105070118.full.pdf" target="_blank">Paper</a>
-              <a class="button" href="https://github.com/wengong-jin/ComboNet" target="_blank">Code</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A Deep Learning Approach to Antibiotic Discovery</b></p>
-          <p>Jonathan M. Stokes, Kevin Yang, Kyle Swanson, <b>Wengong Jin</b>, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, Shawn French, Lindsey A. Carfrae, Zohar Bloom-Ackerman, Victoria M. Tran, Anush Chiappino-Pepe, Ahmed H. Badran, Ian W. Andrews, Emma J. Chory, George M. Church, Eric D. Brown, Tommi S. Jaakkola, Regina Barzilay, James J. Collins</p>
-          <p><i>Cell 2020</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://www.cell.com/cell/fulltext/S0092-8674(20)30102-1" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Multi-Objective Molecule Generation using Interpretable Substructures</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2020</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="http://arxiv.org/abs/2002.03244" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-              <a class="button" href="https://github.com/wengong-jin/multiobj-rationale" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Hierarchical Generation of Molecular Graphs using Structural Motifs</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2020</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="http://arxiv.org/abs/2002.03230" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-              <a class="button" href="https://github.com/wengong-jin/hgraph2graph" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Learning Multimodal Graph-to-Graph Translation for Molecular Optimization</b></p>
-          <p><b>Wengong Jin</b>, Kevin Yang, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Learning Representations (ICLR) 2019</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1812.01070" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-              <a class="button" href="https://github.com/wengong-jin/iclr19-graph2graph" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Junction Tree Variational Autoencoder for Molecular Graph Generation</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2018</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1802.04364" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-            
-              <a class="button" href="https://vimeo.com/287766825" target="_blank">Video</a>
-            
-
-			
-
-            
-              <a class="button" href="https://github.com/wengong-jin/icml18-jtnn" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Predicting Organic Reaction Outcomes with Weisfeiler-Lehman Network</b></p>
-          <p><b>Wengong Jin</b>, Connor W. Coley, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>Neural Information Processing Systems (NIPS) 2017</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1709.04555" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-              <a class="button" href="https://github.com/wengong-jin/nips17-rexgen" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Deriving Neural Architectures from Sequence and Graph Kernels</b></p>
-          <p>Tao Lei<sup>‡</sup>, <b>Wengong Jin<sup>‡</sup></b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2017</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1705.09037" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-            
-
-			
-
-            
-              <a class="button" href="https://github.com/taolei87/icml17_knn" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
+      {% endfor %}
     </div>
 
     <div class="tab-pane" id="papers-all">
-
+      {% for paper in site.data.publications.papers %}
         <div class="paper">
-          <p class="title"><b>Antibody-Antigen Docking and Design via Hierarchical Equivariant Refinement</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML 2022)</i></p>
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
            <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/pdf/2207.06616" target="_blank">Paper</a>
-              <a class="button" href="https://github.com/wengong-jin/abdockgen" target="_blank">Code</a>
-            
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
 
-            
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
 
-            
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+            {% endif %}
 
-            
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
 
-			
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
 
-            
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
           </div>
         </div>
-
-        <div class="paper">
-          <p class="title"><b>Iterative Refinement Graph Neural Network for Antibody Sequence-Structure Co-Design</b></p>
-          <p><b>Wengong Jin</b>, Jeremy Wohlwend, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Learning Representations (ICLR 2022)</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/pdf/2110.04624" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Deep learning identifies synergistic drug combinations for treating COVID-19</b></p>
-          <p><b>Wengong Jin</b>, Jonathan M. Stokes, Richard T. Eastman, Zina Itkin, Alexey V. Zakharov, James J. Collins, Tommi S. Jaakkola, Regina Barzilay</p>
-          <p><i>Proceedings of the National Academy of Sciences (PNAS 2021)</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://www.pnas.org/content/pnas/118/39/e2105070118.full.pdf" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Mol2Image: Improved Conditional Flow Models for Molecule to Image Synthesis</b></p>
-          <p>Karren Yang, Samuel Goldman, <b>Wengong Jin</b>, Alex X Lu, Regina Barzilay, Tommi Jaakkola, Caroline Uhler</p>
-          <p><i> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2021)</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_Mol2Image_Improved_Conditional_Flow_Models_for_Molecule_to_Image_Synthesis_CVPR_2021_paper.pdf" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Enforcing Predictive Invariance across Structured Biomedical Domains</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>preprint</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/pdf/2006.03908.pdf" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A Deep Learning Approach to Antibiotic Discovery</b></p>
-          <p>Jonathan M. Stokes, Kevin Yang, Kyle Swanson, <b>Wengong Jin</b>, Andres Cubillos-Ruiz, Nina M. Donghia, Craig R. MacNair, Shawn French, Lindsey A. Carfrae, Zohar Bloom-Ackerman, Victoria M. Tran, Anush Chiappino-Pepe, Ahmed H. Badran, Ian W. Andrews, Emma J. Chory, George M. Church, Eric D. Brown, Tommi S. Jaakkola, Regina Barzilay, James J. Collins</p>
-          <p><i>Cell 2020</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://www.cell.com/cell/fulltext/S0092-8674(20)30102-1" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Multi-Objective Molecule Generation using Interpretable Substructures</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2020</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="http://arxiv.org/abs/2002.03244" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-              <a class="button" href="https://github.com/wengong-jin/multiobj-rationale" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Hierarchical Generation of Molecular Graphs using Structural Motifs</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2020</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="http://arxiv.org/abs/2002.03230" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-              <a class="button" href="https://github.com/wengong-jin/hgraph2graph" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Improving Molecular Design by Stochastic Iterative Target Augmentation</b></p>
-          <p>Kevin Yang, <b>Wengong Jin</b>, Kyle Swanson, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2020</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/pdf/2002.04720.pdf" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Functional Transparency for Structured Data: a Game-Theoretic Approach</b></p>
-          <p>Guang-He Lee, <b>Wengong Jin</b>, David Alvarez-Melis, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2019</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1902.09737" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Learning Multimodal Graph-to-Graph Translation for Molecular Optimization</b></p>
-          <p><b>Wengong Jin</b>, Kevin Yang, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Learning Representations (ICLR) 2019</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1812.01070" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-              <a class="button" href="https://github.com/wengong-jin/iclr19-graph2graph" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>A graph-convolutional neural network model for the prediction of chemical reactivity</b></p>
-          <p>Connor W Coley, <b>Wengong Jin</b>, Luke Rogers, Timothy F Jamison, Tommi S Jaakkola, William H Green, Regina Barzilay, Klavs F Jensen</p>
-          <p><i>Chemical Science</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://pubs.rsc.org/lv/content/articlehtml/2019/sc/c8sc04228d" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-              <a class="button" href="https://github.com/connorcoley/rexgen_direct" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Analyzing learned molecular representations for property prediction</b></p>
-          <p>Kevin Yang, Kyle Swanson, <b>Wengong Jin</b>, Connor Coley, Philipp Eiden, Hua Gao, Angel Guzman-Perez, Timothy Hopper, Brian Kelley, Miriam Mathea, Andrew Palmer, Volker Settels, Tommi Jaakkola, Klavs Jensen, Regina Barzilay</p>
-          <p><i>Journal of chemical information and modeling</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://pubs.acs.org/doi/pdf/10.1021/acs.jcim.9b00237" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-              <a class="button" href="https://github.com/chemprop/chemprop" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Junction Tree Variational Autoencoder for Molecular Graph Generation</b></p>
-          <p><b>Wengong Jin</b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2018</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1802.04364" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-              <a class="button" href="https://vimeo.com/287766825" target="_blank">Video</a>
-            
-
-            
-              <a class="button" href="https://github.com/wengong-jin/icml18-jtnn" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Predicting Organic Reaction Outcomes with Weisfeiler-Lehman Network</b></p>
-          <p><b>Wengong Jin</b>, Connor W. Coley, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>Neural Information Processing Systems (NIPS) 2017</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1709.04555" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-              <a class="button" href="https://github.com/wengong-jin/nips17-rexgen" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
-        <div class="paper">
-          <p class="title"><b>Deriving Neural Architectures from Sequence and Graph Kernels</b></p>
-          <p>Tao Lei<sup>‡</sup>, <b>Wengong Jin<sup>‡</sup></b>, Regina Barzilay, Tommi Jaakkola</p>
-          <p><i>International Conference on Machine Learning (ICML) 2017</i></p>
-           <div class="paper-buttons">
-            
-              <a class="button" href="https://arxiv.org/abs/1705.09037" target="_blank">Paper</a>
-            
-
-            
-
-            
-
-			
-
-            
-
-            
-              <a class="button" href="https://github.com/taolei87/icml17_knn" target="_blank">Code</a>
-            
-          </div>
-        </div>
-      
+      {% endfor %}
     </div>
   </div>
 </div>
 
-<!-- ========== Talks ========== -->
-<div class="docs-section" id="talks">
-  <h4>Talks</h4>
-  <li>Predictive models for searching COVID-19 drug combinations, AI Cures Drug Discovery Conference, Oct 2020 </li>
-  <li>Graph Neural Networks for Drug Discovery, Neurosymbolic.org, Oct 2020</li>
-  <li>Domain Extrapolation via Regret Minimization, MIT Machine Learning Tea, Aug 2020</li>
-  <li>Deep Learning for Drug Discovery, New York Academy of Science, May 2020</li>
-  <li>Hierarchical Generation of Molecular Graphs using Structural Motifs,Aggregate Intellect Socratic Circles (AISC), Mar 2020</li>
-  <li>Representation and Generation of Molecular Graphs, MIT Computational Fabrication Group, Feb 2020 </li>
-  <li>Representation and Generation of Molecular Graphs, NeurIPS 2019 Graph Representation Learning Workshop </li>
-  <li>Hierarchical Graph-to-Graph Translation for Molecules, MIT Machine Learning Tea 2019 </li>
-  <li>Hierarchical Graph-to-Graph Translation for Molecules, IBM AI Research Week 2019 </li>
-  <li>A Graph Translation Approach for Molecular Optimization, NeurIPS 2018 Machine Learning for Molecules and Materials Workshop </li>
-  <li>Learning to Generate Graphs, MIT NetMIT Group, Oct 2018  </li>
-  <li>Graph Representation Learning for Chemistry, MILA Tea Talk, Montreal, Aug 2018 </li>
-  <li>Junction Tree Variational Autoencoder for Molecular Graph Generation, ICML 2018 </li>
-  <li>Junction Tree Variational Autoencoder for Molecular Graph Generation, MIT Speech Group, Mar 2018 </li>
-  <li>Deriving Neural Architectures from Sequence and Graph Kernels, ICML 2017 </li>
-</div>
+<!-- ========== PROJECTS ========== 
+<div class="docs-section" id="projects">
+  <h4>Projects</h4>
 
+  <ul class="tab-nav">
+    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
+    <li><div class="button" data-ref="#projects-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="projects-selected">
+      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="projects-all">
+      {% for project in site.data.projects.projects %}
+        {% assign index_modulo = forloop.index0 | modulo:3 %}
+        {% if index_modulo == 0 %}
+          <div class="row">
+        {% endif %}
+
+          <div class="four columns">
+            <div class="project-container">
+
+                <div class="project-image-container">
+                  <a href="{{ project.url }}">
+                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  </a>
+                </div>
+
+                <div class="project-caption">
+                  <b>{{ project.title }}</b> <br/>
+                  {{ project.subtitle }}
+                </div>
+
+            </div>
+          </div>
+
+        {% if index_modulo == 2 %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+</div>
+-->
+
+<!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
+  <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
+
   <!-- The Timeline -->
   <ul class="timeline">
-    
+    {% for exp in site.data.experience.experiences %}
     <li>
-      
+      {% if exp.category == "work" %}
       <div class="direction-l">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Eric and Wendy Schmidt Center at the Broad Institute</span>
-          <span class="time-wrapper"><span class="time">2021 - present</span></span>
-        </div>
-        <div class="desc"><b>Postdoc</b> <br/> Computational Biology</div>
-      </div>
-    </li>
-    
-    <li>
-      
+      {% else %}
       <div class="direction-r">
-      
+      {% endif %}
         <div class="flag-wrapper">
-          <span class="flag">MIT CSAIL</span>
-          <span class="time-wrapper"><span class="time">2016 - 2021</span></span>
+          <span class="flag">{{ exp.place }}</span>
+          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
         </div>
-        <div class="desc"><b>Ph.D.</b> <br/> Advisor: Regina Barzilay, Tommi Jaakkola</div>
+        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
       </div>
     </li>
-    
-    <li>
-      
-      <div class="direction-l">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Google Brain</span>
-          <span class="time-wrapper"><span class="time">Summer 2019</span></span>
-        </div>
-        <div class="desc"><b>Research Intern</b> <br/> Deep Learning</div>
-      </div>
-    </li>
-    
-    <li>
-      
-      <div class="direction-r">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Shanghai Jiao Tong University</span>
-          <span class="time-wrapper"><span class="time">2012 - 2016</span></span>
-        </div>
-        <div class="desc"><b>B.Sc. Student</b> <br/> Computing Science (Zhiyuan ACM Class)</div>
-      </div>
-    </li>
-    
-    <li>
-      
-      <div class="direction-l">
-      
-        <div class="flag-wrapper">
-          <span class="flag">Microsoft Research Asia</span>
-          <span class="time-wrapper"><span class="time">Summer 2015</span></span>
-        </div>
-        <div class="desc"><b>Research Intern</b> <br/> Natural Language Processing</div>
-      </div>
-    </li>
-    
+    {% endfor %}
   </ul>
 </div>
 
+
 <div class="docs-section" id="template">
-    <h5>Acknowledgement</h5>
-    This website was built with jekyll based on a template by <a href="http://web.media.mit.edu/~msaveski/"> Martin Saveski </a>
+    <h4>Website Design</h4>
+    Since I made this website, many people have found this Jekyll template useful
+    <a href="https://people.csail.mit.edu/davidam/" target="_blank">[1</a>,
+    <a href="https://thashim.github.io/" target="_blank">2</a>,
+    <a href="https://pauljwright.github.io/" target="_blank">3</a>,
+    <a href="https://bayesianbrad.github.io/" target="_blank">4</a>,
+    <a href="https://ahxt.github.io/" target="_blank">5</a>,
+    <a href="https://people.csail.mit.edu/chang87/" target="_blank">6</a>,
+    <a href="https://dinacmistry.github.io/" target="_blank">7</a>,
+    <a href="https://stanniszhou.github.io/" target="_blank">8</a>,
+    <a href="http://binghongchen.net/" target="_blank">9</a>,
+    <a href="https://jirvin16.github.io/" target="_blank">10</a>,
+    <a href="https://mengliu1998.github.io/" target="_blank">11</a>,
+    <a href="https://amir-rahimi.github.io/" target="_blank">12</a>,
+    <a href="https://taoyds.github.io/" target="_blank">13</a>,
+    <a href="https://zhangjingtun.com/" target="_blank">14</a>,
+    <a href="https://www.saraiht.com/" target="_blank">15</a>,
+    <a href="https://tomyan555.github.io/" target="_blank">16</a>,
+    <a href="https://abhishekgrewal.github.io/" target="_blank">17</a>,
+    <a href="https://xuezhemax.github.io/" target="_blank">18</a>].
+    
+    <!--<br/>-->
+    You can find all the code needed to build your website in this <a href="https://github.com/msaveski/www_personal" target="_blank">GitHub repo</a>.
+    Feel free to use it. <br/>
+
+    If you end up using it, please link to here and drop me an email.
+    I'm always happy to see people using it.
 </div>
-
-
-    <div class="footer">
-      <div class="row">
-        <div class="four columns">
-          Wengong Jin
-        </div>
-        <div class="four columns">
-          wengong [AT] csail.mit.edu
-        </div>
-        <div class="four columns">
-          <span onclick="window.open('https://twitter.com/WengongJin')" style="cursor: pointer">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('https://www.linkedin.com/in/wengong-jin-640522b1')" style="cursor: pointer">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('https://github.com/wengong-jin')" style="cursor: pointer">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('https://scholar.google.com/citations?user=IE5D8_QAAAAJ&hl=en')" style="cursor: pointer">
-            <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-          </span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- Google Analytics -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-</html>
-
