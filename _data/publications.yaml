@@ -25,7 +25,7 @@ papers:
     selected: y
 
   - title: "Amortized Tree Generation for Bottom-up Synthesis Planning and Synthesizable Molecular Design"
-    authors: "<b>Wenhao Gao</b>, Rocío Mercado, and Connor W. Coley"
+    authors: "<b>Wenhao Gao</b>, Rocio Mercado, and Connor W. Coley"
     venue: "ICLR 2022"
     paper_pdf: "assets/publications/2021_SynNet_ICLR/paper.pdf"
     selected: y
