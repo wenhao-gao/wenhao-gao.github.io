@@ -1,9 +1,15 @@
 papers:
 
-  - title: "Artificial intelligence foundation for therapeutic science"
+  - title: "Artificial Intelligence Foundation for Therapeutic Science"
     authors: "Kexin Huang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun and Marinka Zitnik"
     venue: "Nature Chemical Biology"
     paper_pdf: "assets/publications/2022_tdc_ncb/paper.pdf"
+    selected: y
+
+  - title: "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization"
+    authors: "<b>Wenhao Gao<sup>‡</sup></b>, Tianfan Fu<sup>‡</sup>, Jimeng Sun and Connor W. Coley"
+    venue: "NeurIPS, Datasets and Ben"
+    paper_pdf: "assets/publications/2022_"
     selected: y
 
   # - title: "Engaging Politically Diverse Audiences on Social Media"
