@@ -4,18 +4,22 @@ papers:
     authors: "Kexin Huang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun and Marinka Zitnik"
     venue: "Nature Chemical Biology"
     paper_pdf: "assets/publications/2022_tdc_ncb/paper.pdf"
+    slides: "assets/publications/2022_tdc_ncb/slides.pdf"
+    code: "https://github.com/mims-harvard/TDC"
     selected: y
 
   - title: "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization"
     authors: "<b>Wenhao Gao<sup>‡</sup></b>, Tianfan Fu<sup>‡</sup>, Jimeng Sun and Connor W. Coley"
     venue: "NeurIPS 2022, Datasets and Benchmarks Track"
     paper_pdf: "assets/publications/2022_PMO_Neurips_datasets/paper.pdf"
+    code: "https://github.com/wenhao-gao/mol_opt"
     selected: y
 
   - title: "Reinforced Genetic Algorithm for Structure-based Drug Design"
     authors: "Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Connor W. Coley and Jimeng Sun"
     venue: "NeurIPS 2022"
     paper_pdf: "assets/publications/2022_RGA_NeurIPS/paper.pdf"
+    code: "https://github.com/futianfan/reinforced-genetic-algorithm"
     selected: y
 
   - title: "Autonomous Platforms for Data-driven Organic Synthesis"
@@ -28,12 +32,15 @@ papers:
     authors: "<b>Wenhao Gao</b>, Rocio Mercado, and Connor W. Coley"
     venue: "ICLR 2022"
     paper_pdf: "assets/publications/2021_SynNet_ICLR/paper.pdf"
+    slides: "assets/publications/2021_SynNet_ICLR/slides.pdf"
+    code: "https://github.com/wenhao-gao/SynNet"
     selected: y
 
   - title: "Differentiable Scaffolding Tree for Molecular Optimization"
     authors: "Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Cao Xiao, Jacob Yasonik, Connor W. Coley and Jimeng Sun"
     venue: "ICLR 2022"
     paper_pdf: "assets/publications/2021_DST_ICLR/paper.pdf"
+    code: "https://github.com/futianfan/DST"
     selected: y
 
   - title: "Pairwise Difference Regression: A Machine Learning Meta-algorithm for Improved Prediction and Uncertainty Quantification in Chemical Search"
@@ -46,6 +53,7 @@ papers:
     authors: "Kexin Huang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun and Marinka Zitnik"
     venue: "NeurIPS 2021, Datasets and Benchmarks Track"
     paper_pdf: "assets/publications/2021_tdc_neurips/paper.pdf"
+    code: "https://github.com/mims-harvard/TDC"
     selected: y
 
   - title: "Deep Learning in Protein Structural Modeling and Design"
@@ -58,6 +66,7 @@ papers:
     authors: "<b>Wenhao Gao</b> and Connor W. Coley"
     venue: "Journal of Chemical Informatics and Modeling"
     paper_pdf: "assets/publications/2020_synthesizability_JCIM/paper.pdf"
+    code: "https://github.com/wenhao-gao/askcos_synthesizability"
     selected: y
 
   # - title: "Engaging Politically Diverse Audiences on Social Media"
