@@ -1,5 +1,11 @@
 papers:
 
+  - title: "Scientific discovery in the age of artificial intelligence"
+    authors: "Hanchen Wang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, Yuanqi Du<sup>‡</sup>, <b>Wenhao Gao</b>, ... Marinka Zitnik"
+    venue: "Nature"
+    paper_pdf: "assets/publications/2023_ai4sci/paper.pdf"
+    selected: y
+
   - title: "Artificial Intelligence Foundation for Therapeutic Science"
     authors: "Kexin Huang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun and Marinka Zitnik"
     venue: "Nature Chemical Biology"
