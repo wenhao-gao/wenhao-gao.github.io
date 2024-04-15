@@ -1,6 +1,24 @@
 papers:
 
-  - title: "Scientific discovery in the age of artificial intelligence"
+  - title: "Substrate Scope Contrastive Learning: Repurposing Human Bias to Learn Atomic Representations"
+    authors: "<b>Wenhao Gao</b>, Priyanka Raghavan, Ron Shprints and Connor W. Coley"
+    venue: "ArXiv"
+    paper_pdf: "assets/publications/2024_contrascope/paper.pdf"
+    selected: y
+
+  - title: "AUTODIFF: Autoregressive Diffusion Modeling for Structure-based Drug Design"
+    authors: "Xinze Li, Penglei Wang, Tianfan Fu, <b>Wenhao Gao</b>, Chengtao Li, Leilei Shi and Junhong Liu"
+    venue: "ArXiv"
+    paper_pdf: "assets/publications/2024_autodiff/paper.pdf"
+    selected: n
+
+  - title: "Closing the Execution Gap in Generative AI for Chemicals and Materials: Freeways or Safeguards"
+    authors: "Akshay Subramanian, <b>Wenhao Gao</b>, ... Rafael Gomez-Bombarelli"
+    venue: "An MIT Exploration of Generative AI"
+    paper_pdf: "assets/publications/2024_genai_whitepaper/paper.pdf"
+    selected: y
+    
+  - title: "Scientific Discovery in the Age of Artificial Intelligence"
     authors: "Hanchen Wang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, Yuanqi Du<sup>‡</sup>, <b>Wenhao Gao</b>, ... Marinka Zitnik"
     venue: "Nature"
     paper_pdf: "assets/publications/2023_ai4sci/paper.pdf"
@@ -26,7 +44,7 @@ papers:
     venue: "NeurIPS 2022"
     paper_pdf: "assets/publications/2022_RGA_NeurIPS/paper.pdf"
     code: "https://github.com/futianfan/reinforced-genetic-algorithm"
-    selected: y
+    selected: n
 
   - title: "Autonomous Platforms for Data-driven Organic Synthesis"
     authors: "<b>Wenhao Gao<sup>‡</sup></b>, Priyanka Raghavan, and Connor W. Coley"
@@ -53,7 +71,7 @@ papers:
     authors: "Michael Tynes, <b>Wenhao Gao</b>, Daniel J. Burrill, Enrique R. Batista, Danny Perez, Ping Yang and Nicholas Lubbers"
     venue: "Journal of Chemical Informatics and Modeling"
     paper_pdf: "assets/publications/2021_PADRE_JCIM/paper.pdf"
-    selected: y
+    selected: n
 
   - title: "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Therapeutics"
     authors: "Kexin Huang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun and Marinka Zitnik"
@@ -66,7 +84,7 @@ papers:
     authors: "<b>Wenhao Gao</b>, Sai P. Mahajan, Jeremias Sulam and Jeffrey J.Gray"
     venue: "Patterns"
     paper_pdf: "assets/publications/2020_protein_review_patterns/paper.pdf"
-    selected: y
+    selected: n
 
   - title: "Synthesizability of Molecules Proposed by Generative Models"
     authors: "<b>Wenhao Gao</b> and Connor W. Coley"
