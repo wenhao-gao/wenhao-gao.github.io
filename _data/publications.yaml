@@ -1,5 +1,41 @@
 papers:
 
+  - title: "Generative Artificial Intelligence for Navigating Synthesizable Chemical Space"
+    authors: "<b>Wenhao Gao<sup>‡</sup></b>, Shitong Luo<sup>‡</sup> and Connor W. Coley"
+    venue: "ArXiv"
+    paper_pdf: "assets/publications/2024_SynFormer/paper.pdf"
+    selected: y
+
+  - title: "Projecting Molecules into Synthesizable Chemical Spaces"
+    authors: "Shitong Luo<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Zuofan Wu<sup>‡</sup>, Jian Peng, Connor W. Coley and Jianzhu Ma"
+    venue: "ICML 2024"
+    paper_pdf: "assets/publications/2024_ChemProjector_ICML/paper.pdf"
+    selected: y
+
+  - title: "Double-Ended Synthesis Planning with Goal-Constrained Bidirectional Search"
+    authors: "Shitong Luo<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Zuofan Wu<sup>‡</sup>, Jian Peng, Connor W. Coley and Jianzhu Ma"
+    venue: "NeurIPS 2024 (Spotlight)"
+    paper_pdf: "assets/publications/2024_DESP_NeurIPS/paper.pdf"
+    selected: y
+
+  - title: "Efficient Evolutionary Search over Chemical Space with Large Language Models"
+    authors: "Haorui Wang, Marta Skreta, Yuanqi Du, <b>Wenhao Gao</b>, Lingkai Kong, Cher Tian Ser, Felix Strieth-Kalthoff, Chenru Duan, Yuchen Zhuang, Yue Yu, Yanqiao Zhu, Alan Aspuru-Guzik, Kirill Neklyudov and Chao Zhang"
+    venue: "ArXiv"
+    paper_pdf: "assets/publications/2024_moleo/paper.pdf"
+    selected: n
+
+  - title: "Syntax-Guided Procedural Synthesis of Molecules"
+    authors: "Michael Sun, Alston Lo, <b>Wenhao Gao</b>, Minghao Guo, Veronika Thost, Jie Chen, Connor W. Coley and Wojciech Matusik"
+    venue: "ArXiv"
+    paper_pdf: "assets/publications/2024_Syn_grammar/paper.pdf"
+    selected: n
+
+  - title: "TDC-2: Multimodal Foundation for Therapeutic Science"
+    authors: "Alejandro Velez-Arce, Kexin Huang, Michelle Li, Xiang Lin, Wenhao Gao, Tianfan Fu, Manolis Kellis, Bradley L Pentelute and Marinka Zitnik"
+    venue: "ArXiv"
+    paper_pdf: "assets/publications/2024_TDC2/paper.pdf"
+    selected: n
+
   - title: "Substrate Scope Contrastive Learning: Repurposing Human Bias to Learn Atomic Representations"
     authors: "<b>Wenhao Gao</b>, Priyanka Raghavan, Ron Shprints and Connor W. Coley"
     venue: "ArXiv"
@@ -44,17 +80,17 @@ papers:
     venue: "NeurIPS 2022"
     paper_pdf: "assets/publications/2022_RGA_NeurIPS/paper.pdf"
     code: "https://github.com/futianfan/reinforced-genetic-algorithm"
-    selected: n
+    selected: y
 
   - title: "Autonomous Platforms for Data-driven Organic Synthesis"
-    authors: "<b>Wenhao Gao<sup>‡</sup></b>, Priyanka Raghavan, and Connor W. Coley"
+    authors: "<b>Wenhao Gao</b>, Priyanka Raghavan, and Connor W. Coley"
     venue: "Nature Communications"
     paper_pdf: "assets/publications/2022_Auto_Synthesis_NC/paper.pdf"
     selected: y
 
   - title: "Amortized Tree Generation for Bottom-up Synthesis Planning and Synthesizable Molecular Design"
     authors: "<b>Wenhao Gao</b>, Rocio Mercado, and Connor W. Coley"
-    venue: "ICLR 2022"
+    venue: "ICLR 2022 (Spotlight)"
     paper_pdf: "assets/publications/2021_SynNet_ICLR/paper.pdf"
     slides: "assets/publications/2021_SynNet_ICLR/slides.pdf"
     code: "https://github.com/wenhao-gao/SynNet"
@@ -71,7 +107,7 @@ papers:
     authors: "Michael Tynes, <b>Wenhao Gao</b>, Daniel J. Burrill, Enrique R. Batista, Danny Perez, Ping Yang and Nicholas Lubbers"
     venue: "Journal of Chemical Informatics and Modeling"
     paper_pdf: "assets/publications/2021_PADRE_JCIM/paper.pdf"
-    selected: n
+    selected: y
 
   - title: "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Therapeutics"
     authors: "Kexin Huang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun and Marinka Zitnik"
@@ -84,7 +120,7 @@ papers:
     authors: "<b>Wenhao Gao</b>, Sai P. Mahajan, Jeremias Sulam and Jeffrey J.Gray"
     venue: "Patterns"
     paper_pdf: "assets/publications/2020_protein_review_patterns/paper.pdf"
-    selected: n
+    selected: y
 
   - title: "Synthesizability of Molecules Proposed by Generative Models"
     authors: "<b>Wenhao Gao</b> and Connor W. Coley"
