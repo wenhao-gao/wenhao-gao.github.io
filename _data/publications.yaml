@@ -4,24 +4,28 @@ papers:
     authors: "<b>Wenhao Gao<sup>‡</sup></b>, Shitong Luo<sup>‡</sup> and Connor W. Coley"
     venue: "ArXiv"
     paper_pdf: "assets/publications/2024_SynFormer/paper.pdf"
+    code: "https://github.com/wenhao-gao/synformer"
     selected: y
 
   - title: "Projecting Molecules into Synthesizable Chemical Spaces"
     authors: "Shitong Luo<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Zuofan Wu<sup>‡</sup>, Jian Peng, Connor W. Coley and Jianzhu Ma"
     venue: "ICML 2024"
     paper_pdf: "assets/publications/2024_ChemProjector_ICML/paper.pdf"
+    code: "https://github.com/luost26/ChemProjector"
     selected: y
 
   - title: "Double-Ended Synthesis Planning with Goal-Constrained Bidirectional Search"
-    authors: "Shitong Luo<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Zuofan Wu<sup>‡</sup>, Jian Peng, Connor W. Coley and Jianzhu Ma"
+    authors: "Kevin Yu, Jihye Roh, Ziang Li, <b>Wenhao Gao</b>, Runzhong Wang and Connor W Coley"
     venue: "NeurIPS 2024 (Spotlight)"
     paper_pdf: "assets/publications/2024_DESP_NeurIPS/paper.pdf"
+    code: "https://github.com/coleygroup/desp"
     selected: y
 
   - title: "Efficient Evolutionary Search over Chemical Space with Large Language Models"
     authors: "Haorui Wang, Marta Skreta, Yuanqi Du, <b>Wenhao Gao</b>, Lingkai Kong, Cher Tian Ser, Felix Strieth-Kalthoff, Chenru Duan, Yuchen Zhuang, Yue Yu, Yanqiao Zhu, Alan Aspuru-Guzik, Kirill Neklyudov and Chao Zhang"
     venue: "ArXiv"
     paper_pdf: "assets/publications/2024_moleo/paper.pdf"
+    code: "https://github.com/zoom-wang112358/MOLLEO"
     selected: n
 
   - title: "Syntax-Guided Procedural Synthesis of Molecules"
@@ -40,6 +44,7 @@ papers:
     authors: "<b>Wenhao Gao</b>, Priyanka Raghavan, Ron Shprints and Connor W. Coley"
     venue: "ArXiv"
     paper_pdf: "assets/publications/2024_contrascope/paper.pdf"
+    code: "https://github.com/wenhao-gao/substrate_scope_contrastive_learning/tree/main"
     selected: y
 
   - title: "AUTODIFF: Autoregressive Diffusion Modeling for Structure-based Drug Design"
