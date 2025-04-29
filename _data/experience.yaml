@@ -1,8 +1,20 @@
 experiences:
 
+- place: "University of Pennsylvania"
+  time: "2027 (Expected) - "
+  title: "Assistant Professor"
+  subtitle: "Chemical and Biomolecular Engineering, IDEAS"
+  category: "work"
+
+- place: "Stanford University"
+  time: "2025 - 2026 (Expected)"
+  title: "Postdoctoral Scholar"
+  subtitle: "Chemistry, Computer Science"
+  category: "work"
+
 - place: "MIT"
-  time: "2020 - now"
-  title: "Ph.D. Student"
+  time: "2020 - 2025"
+  title: "Ph.D."
   subtitle: "Chemical Engineering"
   category: "school"
 
@@ -14,13 +26,13 @@ experiences:
 
 - place: "Johns Hopkins University"
   time: "2018 - 2020"
-  title: "M.S.E. Student"
+  title: "M.S.E."
   subtitle: "Chemical and Biomolecular Engineering"
   category: "school"
 
 - place: "Peking University"
   time: "2014 - 2018"
-  title: "B.Sc. Student"
+  title: "B.Sc."
   subtitle: "Chemistry and Molecular Engineering"
   category: "school"
 
