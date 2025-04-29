@@ -23,7 +23,7 @@ papers:
 
   - title: "Efficient Evolutionary Search over Chemical Space with Large Language Models"
     authors: "Haorui Wang, Marta Skreta, Yuanqi Du, <b>Wenhao Gao</b>, Lingkai Kong, Cher Tian Ser, Felix Strieth-Kalthoff, Chenru Duan, Yuchen Zhuang, Yue Yu, Yanqiao Zhu, Alan Aspuru-Guzik, Kirill Neklyudov and Chao Zhang"
-    venue: "ArXiv"
+    venue: "ICLR 2025"
     paper_pdf: "assets/publications/2024_moleo/paper.pdf"
     code: "https://github.com/zoom-wang112358/MOLLEO"
     selected: n
@@ -42,7 +42,7 @@ papers:
 
   - title: "Substrate Scope Contrastive Learning: Repurposing Human Bias to Learn Atomic Representations"
     authors: "<b>Wenhao Gao</b>, Priyanka Raghavan, Ron Shprints and Connor W. Coley"
-    venue: "ArXiv"
+    venue: "JACS"
     paper_pdf: "assets/publications/2024_contrascope/paper.pdf"
     code: "https://github.com/wenhao-gao/substrate_scope_contrastive_learning/tree/main"
     selected: y
