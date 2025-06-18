@@ -1,13 +1,13 @@
 experiences:
 
-- place: "University of Pennsylvania"
-  time: "2027 (Expected) - "
-  title: "Assistant Professor"
-  subtitle: "Chemical and Biomolecular Engineering, IDEAS"
-  category: "work"
+# - place: "University of Pennsylvania"
+#   time: "2027 (Expected) - "
+#   title: "Assistant Professor"
+#   subtitle: "Chemical and Biomolecular Engineering, IDEAS"
+#   category: "work"
 
 - place: "Stanford University"
-  time: "2025 - 2026 (Expected)"
+  time: "2025 - 2026"
   title: "Postdoctoral Scholar"
   subtitle: "Chemistry, Computer Science"
   category: "work"

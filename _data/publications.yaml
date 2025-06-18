@@ -2,7 +2,7 @@ papers:
 
   - title: "Generative Artificial Intelligence for Navigating Synthesizable Chemical Space"
     authors: "<b>Wenhao Gao<sup>‡</sup></b>, Shitong Luo<sup>‡</sup> and Connor W. Coley"
-    venue: "ArXiv"
+    venue: "PNAS"
     paper_pdf: "assets/publications/2024_SynFormer/paper.pdf"
     code: "https://github.com/wenhao-gao/synformer"
     selected: y
