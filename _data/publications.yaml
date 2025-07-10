@@ -19,7 +19,7 @@ papers:
     venue: "NeurIPS 2024 (Spotlight)"
     paper_pdf: "assets/publications/2024_DESP_NeurIPS/paper.pdf"
     code: "https://github.com/coleygroup/desp"
-    selected: y
+    selected: n
 
   - title: "Efficient Evolutionary Search over Chemical Space with Large Language Models"
     authors: "Haorui Wang, Marta Skreta, Yuanqi Du, <b>Wenhao Gao</b>, Lingkai Kong, Cher Tian Ser, Felix Strieth-Kalthoff, Chenru Duan, Yuchen Zhuang, Yue Yu, Yanqiao Zhu, Alan Aspuru-Guzik, Kirill Neklyudov and Chao Zhang"
@@ -71,7 +71,7 @@ papers:
     paper_pdf: "assets/publications/2022_tdc_ncb/paper.pdf"
     slides: "assets/publications/2022_tdc_ncb/slides.pdf"
     code: "https://github.com/mims-harvard/TDC"
-    selected: y
+    selected: n
 
   - title: "Sample Efficiency Matters: A Benchmark for Practical Molecular Optimization"
     authors: "<b>Wenhao Gao<sup>‡</sup></b>, Tianfan Fu<sup>‡</sup>, Jimeng Sun and Connor W. Coley"
@@ -85,7 +85,7 @@ papers:
     venue: "NeurIPS 2022"
     paper_pdf: "assets/publications/2022_RGA_NeurIPS/paper.pdf"
     code: "https://github.com/futianfan/reinforced-genetic-algorithm"
-    selected: y
+    selected: n
 
   - title: "Autonomous Platforms for Data-driven Organic Synthesis"
     authors: "<b>Wenhao Gao</b>, Priyanka Raghavan, and Connor W. Coley"
@@ -112,20 +112,20 @@ papers:
     authors: "Michael Tynes, <b>Wenhao Gao</b>, Daniel J. Burrill, Enrique R. Batista, Danny Perez, Ping Yang and Nicholas Lubbers"
     venue: "Journal of Chemical Informatics and Modeling"
     paper_pdf: "assets/publications/2021_PADRE_JCIM/paper.pdf"
-    selected: y
+    selected: n
 
   - title: "Therapeutics Data Commons: Machine Learning Datasets and Tasks for Therapeutics"
     authors: "Kexin Huang<sup>‡</sup>, Tianfan Fu<sup>‡</sup>, <b>Wenhao Gao<sup>‡</sup></b>, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun and Marinka Zitnik"
     venue: "NeurIPS 2021"
     paper_pdf: "assets/publications/2021_tdc_neurips/paper.pdf"
     code: "https://github.com/mims-harvard/TDC"
-    selected: y
+    selected: n
 
   - title: "Deep Learning in Protein Structural Modeling and Design"
     authors: "<b>Wenhao Gao</b>, Sai P. Mahajan, Jeremias Sulam and Jeffrey J.Gray"
     venue: "Patterns"
     paper_pdf: "assets/publications/2020_protein_review_patterns/paper.pdf"
-    selected: y
+    selected: n
 
   - title: "Synthesizability of Molecules Proposed by Generative Models"
     authors: "<b>Wenhao Gao</b> and Connor W. Coley"
